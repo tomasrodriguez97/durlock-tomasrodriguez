@@ -1,0 +1,25 @@
+@media screen and (max-width:450px){
+    h1{
+        font-size:22px;
+    }
+    .contenedor-imagenes{
+        width: 98%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 80%;
+    }
+  }
+  @media only screen and (max-width:600px){
+    main h5{
+        max-width: 320px;
+    }
+    .container {
+        max-width: 320px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "nav-area" 
+        "nav-area" 
+        "main";
+    }
+    
+  }

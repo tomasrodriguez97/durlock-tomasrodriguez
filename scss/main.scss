@@ -1,0 +1,17 @@
+*{
+    padding: 0%;
+    border: 0%;
+}
+@import "../scss/variables/colores";
+@import "../scss/variables/mixin";
+@import "../scss/variables/fonts";
+@import "./_secciones/body";
+@import "./_secciones/footer";
+@import "./_secciones/galeria";
+@import "./_secciones/header";
+@import "./_secciones/main";
+@import "./_secciones/responsive";
+
+
+
+
