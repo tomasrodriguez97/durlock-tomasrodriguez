@@ -21,5 +21,10 @@
         "nav-area" 
         "main";
     }
-    
+    @media screen and (max-width: 450px ) {
+        .body img{
+            max-width: 80%;
+        
+        }
+    }
   }
